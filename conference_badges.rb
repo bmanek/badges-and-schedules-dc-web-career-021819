@@ -12,5 +12,5 @@ end
 
 def assign_rooms(attendees)
   assignments = []
-  attendees.each { |x| assignments << "Hello, #{x}, your room is number #{index + 1}."}
+  attendees.each { |x| assignments << "Hello, #{x}, your room is number #{ + 1}."}
 end
