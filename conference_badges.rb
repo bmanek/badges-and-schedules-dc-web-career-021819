@@ -12,6 +12,6 @@ end
 
 def assign_rooms(attendees)
   assignments = []
-  attendees.each_with_index { |x, index| assignments << "Hello, #{x}! You'll be assigned to room #{index + 1}!"}
+  attendees.each { |x, index| assignments << "Hello, #{x}! You'll be assigned to room #{index + 1}!"}
   assignments
 end
